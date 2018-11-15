@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[FanFunnelAnimation.cs](./CS/AnimationExample/FanFunnelAnimation.cs) (VB: [FanFunnelAnimation.vb](./VB/AnimationExample/FanFunnelAnimation.vb))**
+* [MainPage.cs](./CS/AnimationExample/MainPage.cs) (VB: [MainPage.vb](./VB/AnimationExample/MainPage.vb))
+<!-- default file list end -->
 # How to implement a custom funnel animation
 
 
