@@ -1,4 +1,5 @@
 ﻿#region #CustomAnimation
+using DevExpress.Drawing;
 using DevExpress.XtraCharts;
 using System;
 using System.Drawing;
@@ -45,7 +46,7 @@ namespace AnimationExample {
                     2 * fanRadius
             );
 
-            GraphicsPath path = new GraphicsPath();
+            DXGraphicsPath path = new DXGraphicsPath();
             path.AddLine(fanCenterX, fanCenterY, fanLeftBoundEndX, fanLeftBoundEndY);
             path.AddArc(fanBounds, startAngle, sweepAngle);
             path.AddLine(fanRightBoundEndX, fanRightBoundEndY, fanCenterX, fanCenterY);
